@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+}
+
+#topo{
+	background-color: #008B8B;
+	min-height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: darkslategray;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#menu{
+	background-color: #20B2AA;
+	//*height: 30px;*//
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+#conteudo{
+	background-color: #48D1CC;
+	min-height: 400px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	color: darkslategray;
+	font-size: 20px;
+	padding: 2px;
+}
+
+#rodape{
+	background-color: #20B2AA;
+	height: 100px;
+	color: darkslategray;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+body{
+	background-color: #FFFFFF;
+	font-family: "Courier New";
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.itemMenu{
+	width: 120px;
+	display: inline-block;
+	background-color: #40E0D0;
+	border-radius: 5px;
+	border: 2px solid #00CED1;
+}
+
+.itemMenu:hover{
+	background-color: #00CED1;
+	color: #008B8B;
+	border-radius: 12px;
+	box-shadow: 0.5px 0.5px;
+	transform: scale(0.9,0.9);
+}
+
+.campo-busca{
+	background-color: #FFFFFF;
+	border-radius: 24px;
+	border: 0 solid #00CED1;
+	padding: 5px;
+}
+
+.botao-busca{
+	color: #008B8B;
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid #00CED1;
+}
+
+#contato, #inicio, #produtos, #fornecedores{
+	text-align: justify;
+	text-align: center;
+}
+
+#inicio h1, #produtos h2, #fornecedores h3{
+	text-align: left;
+}
+
+.mapa{
+	width: 100%;
+}
+	
+.imagens:hover{
+	transform: scale(0.9,0.9);
+	//*border:2px solid #008B8B;*//
+	cursor: pointer;
+}

@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+}
+
+/*Início ID*/
+
+#topo{
+	background-color: turquoise;
+	min-height: 150px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: Elephant;
+}
+
+#menu{
+	background-color: limegreen;
+	min-height: 100px;
+	text-align: center;
+	width: 25%;
+}
+
+#conteudo{
+	background-color: forestgreen; 
+	min-height: 100px;
+	text-align: justify;
+	width: 75%
+}
+#rodape{
+	background-color: #62360A; 
+	min-height: 80px;
+	text-align:center
+}
+/*Fim ID*/
+
+/*Início Classe*/
+
+.campo-busca{
+	border-radius: 10px;
+	border: 2px solid dimgray;
+}
+.botao-busca{
+	color: dimgray;
+	border-radius: 10px;
+	border: 2px solid dimgray;
+}
+
+.item-menu{
+	display: block;
+	padding-top: 20px;
+	padding: 2px;
+}
+.item-menu:hover{
+	display: block;
+	padding-top: 20px;
+	padding: 2px;
+	color:white;
+}
+.mapa{
+	width: 100%;
+}
+
+/*Fim Classe*/
+
+/*Início Tag*/
+main{
+	display: flex;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	font-family: Corbel;
+}
+
+/*Fim Tag*/
