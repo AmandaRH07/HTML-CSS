@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 	<head>
-		<title>Amazônia </title>
+		<title>Amazônia</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" href="icone.png">
+		<meta name="description" content="O blog Amazônia possui diversos apoiadores. Seja você um apoiador da causa hoje mesmo!">
+		<meta name="keywords" content="amazonia, blog, notícia, Brasil">
+		<meta name="autor" content="Amanda Rafaela Hass">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	</head>
+	
 	<body>
 	<!--Topo-->
 		<header>
 			<div id="topo">
-				<img src="logo.png" width="120px" height="140px" alt="Na imagem temos o desenho de uma árvore.">
-				<br>
+				<img src="logo.png" width="100px" height="120px" alt="Na imagem temos o desenho de uma árvore em aquarela">
+				<br><br>
 				O que você precisa saber sobre a Amazônia
-				<br>
+				<br><br>
 				<input class="campo-busca" type="text" placeholder="Digite aqui sua busca...">
 				<button class="botao-busca">Buscar</button>
 			</div>
@@ -30,13 +35,28 @@
 			</div>
 			
 			<div id="conteudo">
-				<h1>Site de notícias sobre a Floresta Amazônica.</h1>			
-				<br>
-				A Amazônia é a maior floresta do mundo, abrangendo 7 milhões de quilometros quadrados, dos quais 5 são cobertos pela floresta equatorial. Uma em cada dez espécies conhecidas no mundo vive na Floresta Amazônica.Uma em cada dez espécies conhecidas no mundo vive na Floresta Amazônica.
-				<br>
-				Porém, mesmo com toda a sua importância, muitas áreas foram e estão sendo desmatadas e agora, sob pastagens ou convertidas em floresta secundária, já degradadas e abandonadas, somam, pelo menos, 80% do total alterado pelo homem.
-				<br><br>
-				<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254987.9339534724!2d-60.107192519974454!3d-3.0446529665369293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1a9228488da1%3A0x9b63abcb6c90bd84!2sParque%20Municipal%20do%20Mindu!5e0!3m2!1spt-BR!2sbr!4v1604451010149!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<h1>Contato</h1>
+				<form>
+					Nome: <br/>
+					<input type="text" name="nome">
+					<br/>
+					E-mail: <br/>
+					<input type="text" name="email">
+					<br/>
+					Assunto: <br/>
+					<select name="assunto"> 
+					<option>--Selecione o assunto--</option>
+					<option>Dúvida</option>
+					<option>Ajudar o Projeto</option>
+					<option>Reclamação</option>
+					</select>
+					<br/>
+					Mensagem:</br>
+					<textarea name="mensagem"></textarea>
+					</br>
+					<button onclick="alert('Mensagem enviada com sucesso')">Enviar</button>
+					</br>
+				</form>
 			</div>
 		</main>
 		
@@ -59,4 +79,3 @@
 		</footer>
 	</body>
 </html>
-	

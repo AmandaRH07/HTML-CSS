@@ -11,20 +11,23 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: Elephant;
+	font-size: 30px;
 }
 
 #menu{
 	background-color: limegreen;
 	min-height: 100px;
 	text-align: center;
-	width: 25%;
+	width: 20%;
 }
 
 #conteudo{
 	background-color: forestgreen; 
 	min-height: 100px;
 	text-align: justify;
-	width: 75%
+	width: 80%;
+	margin-left: 2%;
+	margin-top: 2%;
 }
 #rodape{
 	background-color: #62360A; 
@@ -55,11 +58,28 @@
 	padding-top: 20px;
 	padding: 2px;
 	color:white;
+	background-color: forestgreen;
 }
+
 .mapa{
 	width: 100%;
 }
 
+.imagens:hover{
+	transform: scale(0.98,0.98);
+	border: 3px solid turquoise;
+	cursor: pointer;
+}
+.conteudo-apoiadores{
+	text-align: center;
+}
+
+.conteudo-informacoes{
+	max-width: 70%;
+	background-color: forestgreen;
+	text-align: justify;
+	width:80%;
+}
 /*Fim Classe*/
 
 /*Início Tag*/
@@ -74,6 +94,7 @@ a{
 
 body{
 	font-family: Corbel;
+	background-color: forestgreen;
 }
 
 /*Fim Tag*/
